@@ -3,8 +3,10 @@ import { FiSend } from "react-icons/fi";
 import Title from "../home/Title";
 import emailjs from '@emailjs/browser'
 import { keys } from '../../config/key'
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const {t} = useTranslation()
   const [clientName, setClientName] = useState("");
   const [email, setEmail] = useState("");
   const [messages, setMessages] = useState("");
@@ -81,18 +83,18 @@ const Contact = () => {
   };
   return (
     <div className="w-full">
-      <Title title="Get" subTitle="in Touch" />
+      <Title title={t('contact.title1')} subTitle={t('contact.title2')} />
       <div className="p-6 w-full flex flex-col md:flex-row justify-between gap-4 md:gap-10 lgl:gap-20">
         <div className="w-full lgl:w-1/2">
           <p className="flex gap-6 justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Address:
+              {t('about.about_address_title')}:
             </span>
-            Indore, MP, India
+            {t('contact.address')}
           </p>
           <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Phone:
+              {t('about.about_address_title')}:
             </span>
             +91 8319868762
           </p>
@@ -100,20 +102,20 @@ const Contact = () => {
         <div className="w-full lgl:w-1/2">
           <p className="flex justify-between lgl:gap-6 w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Email:
+            {t('contact.email_title')}:
             </span>
             beastfake8@gmail.com
           </p>
           <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Freelance:
+            {t('about.about_freelance_title')}:
             </span>
-            Available
+            {t('about.about_freelance')}
           </p>
         </div>
       </div>
       <div className="w-full mt-10">
-        <Title title="Send" subTitle="Messages" />
+        <Title title={t('contact.sub-title1')} subTitle={t('contact.sub-title2')} />
         {seuccessMsg ? (
           <p className="text-center text-base font-titleFont p-20 text-designColor">
             {seuccessMsg}
@@ -136,7 +138,7 @@ const Contact = () => {
                   } w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300`}
                 // className="w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 border-zinc-600 focus-visible:border-designColor outline-none duration-300"
                 type="text"
-                placeholder="Full Name"
+                placeholder={t('contact.ph_name')}
                 name="user_name"
               />
               <input
@@ -147,7 +149,7 @@ const Contact = () => {
                   : "border-zinc-600 focus-visible:border-designColor"
                   } w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300`}
                 type="email"
-                placeholder="Email Address"
+                placeholder={t('contact.ph_email')}
                 name="user_email"
               />
             </div>
@@ -158,7 +160,7 @@ const Contact = () => {
                 ? "border-red-600 focus-visible:border-red-600"
                 : "border-zinc-600 focus-visible:border-designColor"
                 } w-full bg-transparent border-2 px-4 py-2 text-base text-gray-200 outline-none duration-300 resize-none`}
-              placeholder="Your Message"
+              placeholder={t('contact.ph_message')}
               rows="4"
               name="message"
             ></textarea>
@@ -166,7 +168,7 @@ const Contact = () => {
               onClick={handleSend}
               className="text-base w-44 flex items-center gap-1 text-gray-200 hover:text-designColor duration-200"
             >
-              Send Message{" "}
+              {t('contact.btn')}{" "}
               <span className="mt-1 text-designColor">
                 <FiSend />
               </span>

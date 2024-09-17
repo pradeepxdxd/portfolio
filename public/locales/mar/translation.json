@@ -1,0 +1,93 @@
+{
+  "name": "प्रदीप बिस्वास",
+  "downloadCV": "CV डाउनलोड करा",
+  "about": {
+    "about_title1": "विषयी",
+    "about_title2": "माझ्या",
+    "about_heading": "नमस्कार! मी प्रदीप बिस्वास आहे,",
+    "about_desc": "मी भारतातील इंदूर येथील एक फुल-स्टॅक डेवलपर आहे. वेबसाइट डिझाइन आणि बांधणीमध्ये मी समृद्ध अनुभव असलेला असून, क्लाउडमध्येही माझा चांगला हात आहे. आपल्या अद्वितीयतेबद्दल बोलण्यात मला आनंद होईल.",
+    "about_residence": "भारत",
+    "about_freelance": "उपलब्ध",
+    "about_address": "इंदूर",
+    "about_age": "वय",
+    "about_residence_title": "निवास",
+    "about_freelance_title": "फ्रीलांस",
+    "about_address_title": "पत्ता"
+  },
+  "service": {
+    "service_title1": "माझ्या",
+    "service_title2": "सेवा",
+    "service_desc1": "MERN डेवलपर म्हणून, मी फ्रंट-एंड आणि बॅक-एंड विकासात तज्ञ आहे, आणि स्केलेबल आणि कार्यक्षम अनुप्रयोग तयार करण्यात सक्षम आहे.",
+    "service_desc2": "डिझायनर म्हणून, मला CSS फ्रेमवर्कसारख्या Material UI, Bootstrap, Tailwind UI यांची मजबूत माहिती आहे.",
+    "service_desc3": "डेव्हलपर म्हणून, API तयार करणे आधुनिक वेब अ‍ॅप्लिकेशनचा एक महत्त्वाचा भाग आहे. API वेगवेगळ्या सॉफ्टवेअर सिस्टम्सना संवाद साधण्यास अनुमती देतात. API तयार करण्याचे दोन लोकप्रिय दृष्टिकोन REST आणि GraphQL आहेत.",
+    "service_desc4": "डेव्हलपर म्हणून, SEO (सर्च इंजिन ऑप्टिमायझेशन) आपल्या वेबसाइटला सर्च इंजिनद्वारे शोधण्यासाठी अत्यंत महत्वाचे आहे, ज्यामुळे चांगली दृश्यता आणि ट्रॅफिक मिळवता येते."
+  },
+  "funfact": {
+    "funfact_title1": "आनंददायक",
+    "funfact_title2": "तथ्य",
+    "funfact_content1": "Heakerrank प्रमाणपत्रे",
+    "funfact_content2": "3 पूर्ण प्रकल्प",
+    "funfact_content3": "100 तासांचे कोडिंग",
+    "funfact_content4": "Leetcode वर 300+ प्रश्नांचे समाधान"
+  },
+  "resume": {
+    "resume_common_title": "माझे",
+    "resume_title2": "CV",
+    "resume_title3": "कौशल्ये",
+    "resume_sub_title1": "अनुभव",
+    "resume_sub_title2": "शिक्षण",
+    "resume_sub_title3": "डिझाइन",
+    "resume_sub_title4": "भाषा",
+    "resume_sub_title5": "कोडिंग",
+    "resume_sub_title6": "ज्ञान",
+    "resume_year": "वर्तमान",
+    "resume_profile": "सॉफ्टवेअर इंजिनियर",
+    "resume_company_name1": "Hue.ai",
+    "resume_company_name2": "NeoSOFT Technology",
+    "resume_company_desc1": "तत्क्षणी अपलोडर अ‍ॅपवर काम करीत आहे",
+    "resume_company_desc2": "Skuview आणि Kizuna या दोन मुख्य प्रकल्पांवर काम करीत आहे",
+    "education_school_name1": "IPS अ‍ॅकेडमी",
+    "education_school_name2": "उच्च माध्यमिक शाळा",
+    "education_school_name3": "माध्यमिक शाळा",
+    "education_school_desc1": "इंदूर, भारत",
+    "education_school_desc2": "बेतूल, MP",
+    "skill_design1": "वेब विकास",
+    "skill_design2": "वेब डिझाइन",
+    "skill_design3": "मोबाइल अनुप्रयोग",
+    "skill_design4": "UI डिझाइन",
+    "skill_lang1": "अंग्रजी",
+    "skill_lang2": "हिंदी",
+    "skill_coding1": "JavaScript",
+    "skill_coding2": "Reactjs",
+    "skill_coding3": "Nextjs",
+    "skill_coding4": "Nodejs",
+    "skill_coding5": "MongoDB",
+    "skill_kn1": "वेबसाइट होस्टिंग",
+    "skill_kn2": "Git आणि Github",
+    "skill_kn3": "Reactjs/Nextjs मध्ये पुनरुपयोगयोग्य घटक तयार करणे",
+    "skill_kn4": "अनेक तृतीय पक्षांच्या लायब्ररीची माहिती",
+    "skill_kn5": "आधुनिक आणि मोबाइल-आवश्यक",
+    "skill_kn6": "सर्च इंजिन मार्केटिंग"
+  },
+  "projects": {
+    "title1": "अलीकडील",
+    "title2": "प्रकल्प"
+  },
+  "blogs": {
+    "title1": "अलीकडील",
+    "title2": "ब्लॉग"
+  },
+  "contact": {
+    "title1": "संपर्क",
+    "title2": "संपर्क",
+    "sub-title1": "कठवण",
+    "sub-title2": "संदेश",
+    "email_title": "ईमेल",
+    "phone_title": "फोन",
+    "address": "इंदूर, मध्य प्रदेश, भारत",
+    "ph_name": "पूर्ण नाव",
+    "ph_email": "ईमेल पत्ता",
+    "ph_message": "तुमचा संदेश",
+    "btn": "संदेश पाठवा"
+  }
+}

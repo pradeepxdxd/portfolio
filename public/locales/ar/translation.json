@@ -1,0 +1,93 @@
+{
+  "name": "براديب بيسواس",
+  "downloadCV": "تحميل السيرة الذاتية",
+  "about": {
+    "about_title1": "حول",
+    "about_title2": "أنا",
+    "about_heading": "مرحبًا! أنا براديب بيسواس،",
+    "about_desc": "مطور كامل المكدس من الهند، إندور. لدي خبرة واسعة في تصميم وبناء المواقع، كما أنني بارع في السحابة. أحب التحدث معك عن ما هو فريد لدينا.",
+    "about_residence": "الهند",
+    "about_freelance": "متاح",
+    "about_address": "إندور",
+    "about_age": "العمر",
+    "about_residence_title": "الإقامة",
+    "about_freelance_title": "العمل الحر",
+    "about_address_title": "العنوان"
+  },
+  "service": {
+    "service_title1": "خدماتي",
+    "service_title2": "المقدمة",
+    "service_desc1": "بصفتي مطور MERN لدي خبرة في تطوير الواجهة الأمامية والخلفية، مما يجعلني قادرًا على بناء تطبيقات قابلة للتوسع والكفاءة من البداية.",
+    "service_desc2": "بصفتي مصممًا، لدي معرفة قوية بإطارات CSS مثل Material UI وBootstrap وTailwind UI.",
+    "service_desc3": "بصفتي مطورًا، يعد بناء واجهات برمجة التطبيقات جزءًا حيويًا من تطبيقات الويب الحديثة. تتيح واجهات برمجة التطبيقات لأنظمة البرمجيات المختلفة التواصل. عملت على نهجين شائعين لإنشاء واجهات برمجة التطبيقات هما REST وGraphQL.",
+    "service_desc4": "بصفتي مطورًا، يلعب تحسين محركات البحث (SEO) دورًا مهمًا في ضمان اكتشاف موقعك من قبل محركات البحث، مما يؤدي إلى زيادة الرؤية وحركة المرور."
+  },
+  "funfact": {
+    "funfact_title1": "حقائق",
+    "funfact_title2": "ممتعة",
+    "funfact_content1": "شهادات من HackerRank",
+    "funfact_content2": "إنهاء 3 مشاريع",
+    "funfact_content3": "100 ساعة من البرمجة",
+    "funfact_content4": "حل 300+ سؤال على Leetcode"
+  },
+  "resume": {
+    "resume_common_title": "سيرتي",
+    "resume_title2": "الذاتية",
+    "resume_title3": "المهارات",
+    "resume_sub_title1": "الخبرة",
+    "resume_sub_title2": "التعليم",
+    "resume_sub_title3": "التصميم",
+    "resume_sub_title4": "اللغات",
+    "resume_sub_title5": "البرمجة",
+    "resume_sub_title6": "المعرفة",
+    "resume_year": "الحاضر",
+    "resume_profile": "مهندس برمجيات",
+    "resume_company_name1": "Hue.ai",
+    "resume_company_name2": "NeoSOFT تكنولوجي",
+    "resume_company_desc1": "العمل على تطبيق التحميل الفوري",
+    "resume_company_desc2": "العمل على مشروعين رئيسيين هما Skuview و Kizuna",
+    "education_school_name1": "أكاديمية IPS",
+    "education_school_name2": "المدرسة الثانوية العليا",
+    "education_school_name3": "المدرسة الثانوية",
+    "education_school_desc1": "إندور، الهند",
+    "education_school_desc2": "بيتول، م.ب.",
+    "skill_design1": "تطوير الويب",
+    "skill_design2": "تصميم الويب",
+    "skill_design3": "تطبيقات الجوال",
+    "skill_design4": "تصميم واجهات المستخدم",
+    "skill_lang1": "الإنجليزية",
+    "skill_lang2": "الهندية",
+    "skill_coding1": "جافا سكريبت",
+    "skill_coding2": "Reactjs",
+    "skill_coding3": "Nextjs",
+    "skill_coding4": "Nodejs",
+    "skill_coding5": "MongoDB",
+    "skill_kn1": "استضافة المواقع",
+    "skill_kn2": "Git و GitHub",
+    "skill_kn3": "إنشاء مكونات قابلة لإعادة الاستخدام في Reactjs/Nextjs",
+    "skill_kn4": "معرفة مكتبات الطرف الثالث المتعددة",
+    "skill_kn5": "حديث وجاهز للجوال",
+    "skill_kn6": "التسويق عبر محركات البحث"
+  },
+  "projects": {
+    "title1": "أحدث",
+    "title2": "المشاريع"
+  },
+  "blogs": {
+    "title1": "أحدث",
+    "title2": "المدونات"
+  },
+  "contact": {
+    "title1": "تواصل",
+    "title2": "معنا",
+    "sub-title1": "أرسل",
+    "sub-title2": "رسائل",
+    "email_title": "البريد الإلكتروني",
+    "phone_title": "الهاتف",
+    "address": "إندور، ماديا براديش، الهند",
+    "ph_name": "الاسم الكامل",
+    "ph_email": "عنوان البريد الإلكتروني",
+    "ph_message": "رسالتك",
+    "btn": "إرسال رسالة"
+  }
+}

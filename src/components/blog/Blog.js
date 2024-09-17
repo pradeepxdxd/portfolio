@@ -2,11 +2,13 @@ import React from "react";
 import Title from "../home/Title";
 import { blogImgOne, blogImgTwo, blogImgThree } from "../../assets";
 import BlogCard from "./BlogCard";
+import { useTranslation } from "react-i18next";
 
 const Blog = () => {
+  const {t} = useTranslation()
   return (
     <div>
-      <Title title="Latest" subTitle="Posts" />
+      <Title title={t('blogs.title1')} subTitle={t('blogs.title2')} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           <BlogCard

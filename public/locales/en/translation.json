@@ -1,0 +1,93 @@
+{
+  "name": "Pradeep Biswas",
+  "downloadCV": "Download CV",
+  "about": {
+    "about_title1": "About",
+    "about_title2": "Me",
+    "about_heading": "Hello! I'm Pradeep Biswas,",
+    "about_desc": "A full-stack developer from India, Indore. I have rich experience in web site design and building, also I am good at Cloud. I love to talk with you about our unique.",
+    "about_residence": "India",
+    "about_freelance": "Available",
+    "about_address": "Indore",
+    "about_age": "Age",
+    "about_residence_title": "Residence",
+    "about_freelance_title": "Freelance",
+    "about_address_title": "Address"
+  },
+  "service": {
+    "service_title1": "My",
+    "service_title2": "Services",
+    "service_desc1": "As a MERN developer I have expertise in both front-end and back-end development, making capable of building scalable and efficient applications from scratch.",
+    "service_desc2": "As a designer I have strong knowledge of CSS frameworks like Material UI, Bootstrap, Tailwind UI",
+    "service_desc3": "As a developer, building APIs is a critical part of modern web app. APIs allow different software systems to communicate. Two popular approaches for creating APIs are REST and GraphQL I worked on.",
+    "service_desc4": "As a developer, SEO (Search Engine Optimization) plays a crucial role in ensuring that your website is discoverable by search engines, leading to better visibility and traffic."
+  },
+  "funfact": {
+    "funfact_title1": "Fun",
+    "funfact_title2": "Fact",
+    "funfact_content1": "Certifications of Heakerrank",
+    "funfact_content2": "3 Finished Projects",
+    "funfact_content3": "100 hours of coding",
+    "funfact_content4": "300+ question solve on leetcode"
+  },
+  "resume": {
+    "resume_common_title": "My",
+    "resume_title2": "Resume",
+    "resume_title3": "Skills",
+    "resume_sub_title1": "Experience",
+    "resume_sub_title2": "Education",
+    "resume_sub_title3": "Design",
+    "resume_sub_title4": "Languages",
+    "resume_sub_title5": "Coding",
+    "resume_sub_title6": "Knowledge",
+    "resume_year": "Present",
+    "resume_profile": "Software Engineer",
+    "resume_company_name1": "Hue.ai",
+    "resume_company_name2": "NeoSOFT Technology",
+    "resume_company_desc1": "Working on instant uploader app",
+    "resume_company_desc2": "Working on 2 major projects that is Skuview, Kizuna",
+    "education_school_name1": "IPS Academy",
+    "education_school_name2": "Higher Secondary School",
+    "education_school_name3": "Secondary School",
+    "education_school_desc1": "Indore, India",
+    "education_school_desc2": "Betul, MP",
+    "skill_design1": "Web Development",
+    "skill_design2": "Web Design",
+    "skill_design3": "Mobile Application",
+    "skill_design4": "UI Design",
+    "skill_lang1": "English",
+    "skill_lang2": "Hindi",
+    "skill_coding1": "JavaScript",
+    "skill_coding2": "Reactjs",
+    "skill_coding3": "Nextjs",
+    "skill_coding4": "Nodejs",
+    "skill_coding5": "MongoDB",
+    "skill_kn1": "Website hosting",
+    "skill_kn2": "Git and Github",
+    "skill_kn3": "Create reusable component in reactjs/nextjs",
+    "skill_kn4": "Knowledge of multiple 3rd party libraries",
+    "skill_kn5": "Modern and mobile-ready",
+    "skill_kn6": "Search engine marketing"
+  },
+  "projects":{
+    "title1": "Recent",
+    "title2": "Projects"
+  },
+  "blogs":{
+    "title1": "Latest",
+    "title2": "Blogs"
+  },
+  "contact" : {
+    "title1" : "Get",
+    "title2" : "In Touch",
+    "sub-title1" : "Send",
+    "sub-title2" : "Messages",
+    "email_title" : "Email",
+    "phone_title" : "Phone",
+    "address" : "Indore, Madhya Pradesh, India",
+    "ph_name" : "Full Name",
+    "ph_email" : "Email Address",
+    "ph_message" : "Your Message",
+    "btn" : "Send Message"
+  }
+}

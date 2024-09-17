@@ -1,0 +1,93 @@
+{
+  "name": "プラディープ・ビスワス",
+  "downloadCV": "履歴書をダウンロード",
+  "about": {
+    "about_title1": "私について",
+    "about_title2": "について",
+    "about_heading": "こんにちは！私はプラディープ・ビスワスです、",
+    "about_desc": "インド、インドール出身のフルスタック開発者です。ウェブサイトのデザインと構築に豊富な経験があり、クラウドにも精通しています。あなたと私たちのユニークな点について話すのが楽しみです。",
+    "about_residence": "インド",
+    "about_freelance": "利用可能",
+    "about_address": "インドール",
+    "about_age": "年齢",
+    "about_residence_title": "居住地",
+    "about_freelance_title": "フリーランス",
+    "about_address_title": "住所"
+  },
+  "service": {
+    "service_title1": "私の",
+    "service_title2": "サービス",
+    "service_desc1": "MERN開発者として、フロントエンドとバックエンドの両方の開発に専門知識があり、スケーラブルで効率的なアプリケーションをゼロから構築する能力があります。",
+    "service_desc2": "デザイナーとして、Material UI、Bootstrap、Tailwind UIなどのCSSフレームワークについての強い知識があります。",
+    "service_desc3": "開発者として、APIの構築は現代のウェブアプリケーションの重要な部分です。APIは異なるソフトウェアシステム間の通信を可能にします。APIを作成するための2つの人気アプローチはRESTとGraphQLです。",
+    "service_desc4": "開発者として、SEO（検索エンジン最適化）は、あなたのウェブサイトが検索エンジンに発見されるようにし、より良い可視性とトラフィックをもたらす重要な役割を果たします。"
+  },
+  "funfact": {
+    "funfact_title1": "面白い",
+    "funfact_title2": "事実",
+    "funfact_content1": "Heakerrankの認定",
+    "funfact_content2": "3つのプロジェクトを完了",
+    "funfact_content3": "100時間のコーディング",
+    "funfact_content4": "Leetcodeで300以上の質問を解決"
+  },
+  "resume": {
+    "resume_common_title": "私の",
+    "resume_title2": "履歴書",
+    "resume_title3": "スキル",
+    "resume_sub_title1": "経験",
+    "resume_sub_title2": "教育",
+    "resume_sub_title3": "デザイン",
+    "resume_sub_title4": "言語",
+    "resume_sub_title5": "コーディング",
+    "resume_sub_title6": "知識",
+    "resume_year": "現在",
+    "resume_profile": "ソフトウェアエンジニア",
+    "resume_company_name1": "Hue.ai",
+    "resume_company_name2": "NeoSOFT Technology",
+    "resume_company_desc1": "インスタントアップローダーアプリに取り組んでいます",
+    "resume_company_desc2": "SkuviewとKizunaという2つの主要プロジェクトに取り組んでいます",
+    "education_school_name1": "IPSアカデミー",
+    "education_school_name2": "高等学校",
+    "education_school_name3": "中学校",
+    "education_school_desc1": "インド、インドール",
+    "education_school_desc2": "ベトゥール、MP",
+    "skill_design1": "ウェブ開発",
+    "skill_design2": "ウェブデザイン",
+    "skill_design3": "モバイルアプリケーション",
+    "skill_design4": "UIデザイン",
+    "skill_lang1": "英語",
+    "skill_lang2": "ヒンディー語",
+    "skill_coding1": "JavaScript",
+    "skill_coding2": "Reactjs",
+    "skill_coding3": "Nextjs",
+    "skill_coding4": "Nodejs",
+    "skill_coding5": "MongoDB",
+    "skill_kn1": "ウェブサイトホスティング",
+    "skill_kn2": "GitとGithub",
+    "skill_kn3": "Reactjs/Nextjsで再利用可能なコンポーネントの作成",
+    "skill_kn4": "複数のサードパーティライブラリに関する知識",
+    "skill_kn5": "モダンでモバイル対応",
+    "skill_kn6": "検索エンジンマーケティング"
+  },
+  "projects": {
+    "title1": "最近の",
+    "title2": "プロジェクト"
+  },
+  "blogs": {
+    "title1": "最新の",
+    "title2": "ブログ"
+  },
+  "contact": {
+    "title1": "連絡",
+    "title2": "を取る",
+    "sub-title1": "送信",
+    "sub-title2": "メッセージ",
+    "email_title": "メール",
+    "phone_title": "電話",
+    "address": "インドール、マディヤ・プラデーシュ、インド",
+    "ph_name": "フルネーム",
+    "ph_email": "メールアドレス",
+    "ph_message": "メッセージ内容",
+    "btn": "メッセージを送信"
+  }
+}

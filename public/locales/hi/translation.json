@@ -1,0 +1,93 @@
+{
+  "name": "प्रदीप बिस्वास",
+  "downloadCV": "बायोडाटा डाउनलोड करें",
+  "about": {
+    "about_title1": "मेरे बारे",
+    "about_title2": "में",
+    "about_heading": "नमस्ते! मैं प्रदीप बिस्वास हूँ भारत,",
+    "about_desc": "इंदौर से एक फुल-स्टैक डेवलपर। मुझे वेबसाइट डिज़ाइन और बिल्डिंग में समृद्ध अनुभव है, साथ ही मैं क्लाउड में भी अच्छा हूँ। मुझे आपके साथ हमारी अनूठी चीज़ों के बारे में बात करना अच्छा लगता है।",
+    "about_residence": "भारत",
+    "about_freelance": "उपलब्ध",
+    "about_address": "इंदौर",
+    "about_age": "आयु",
+    "about_residence_title": "निवास स्थान",
+    "about_freelance_title": "फ्रीलांस",
+    "about_address_title": "पता"
+  },
+  "service": {
+    "service_title1": "मेरी",
+    "service_title2": "सर्विस",
+    "service_desc1": "एक MERN डेवलपर के रूप में मेरे पास फ्रंट-एंड और बैक-एंड डेवलपमेंट दोनों में विशेषज्ञता है, जिससे मैं शुरुआत से ही स्केलेबल और कुशल एप्लिकेशन बनाने में सक्षम हूं।",
+    "service_desc2": "एक डिजाइनर के रूप में मुझे मैटेरियल यूआई, बूटस्ट्रैप, टेलविंड यूआई जैसे सीएसएस फ्रेमवर्क का अच्छा ज्ञान है",
+    "service_desc3": "एक डेवलपर के रूप में, API बनाना आधुनिक वेब ऐप का एक महत्वपूर्ण हिस्सा है। API अलग-अलग सॉफ़्टवेयर सिस्टम को संवाद करने की अनुमति देते हैं। API बनाने के लिए दो लोकप्रिय तरीके हैं REST और GraphQL जिन पर मैंने काम किया है।",
+    "service_desc4": "एक डेवलपर के रूप में, एसईओ (सर्च इंजन ऑप्टिमाइजेशन) यह सुनिश्चित करने में महत्वपूर्ण भूमिका निभाता है कि आपकी वेबसाइट सर्च इंजन द्वारा खोजी जा सके, जिससे बेहतर दृश्यता और ट्रैफ़िक प्राप्त हो सके।"
+  },
+  "funfact": {
+    "funfact_title1": "मजेदार",
+    "funfact_title2": "तथ्य",
+    "funfact_content1": "हैकररैंक का प्रमाणन",
+    "funfact_content2": "3 पूर्ण परियोजनाएँ",
+    "funfact_content3": "100 घंटे की कोडिंग",
+    "funfact_content4": "300+ प्रश्न leetcode पर हल करें है"
+  },
+  "resume": {
+    "resume_common_title": "मेरा",
+    "resume_title2": "रिज़्यूमे",
+    "resume_title3": "कौशल",
+    "resume_sub_title1": "अनुभव",
+    "resume_sub_title2": "शिक्षा",
+    "resume_sub_title3": "डिज़ाइन",
+    "resume_sub_title4": "भाषाएँ",
+    "resume_sub_title5": "कोडिंग",
+    "resume_sub_title6": "ज्ञान",
+    "resume_year": "वर्तमान",
+    "resume_profile": "सॉफ़्टवेयर इंजीनियर",
+    "resume_company_name1": "Hue.ai",
+    "resume_company_name2": "NeoSOFT टेक्नोलॉजी",
+    "resume_company_desc1": "इंस्टेंट अपलोडर ऐप पर काम कर रहा हूँ",
+    "resume_company_desc2": "दो प्रमुख परियोजनाओं पर काम कर रहा हूँ, Skuview और Kizuna",
+    "education_school_name1": "आईपीएस अकादमी",
+    "education_school_name2": "हायर सेकेंडरी स्कूल",
+    "education_school_name3": "सेकेंडरी स्कूल",
+    "education_school_desc1": "इंदौर, भारत",
+    "education_school_desc2": "बैतूल, म.प्र.",
+    "skill_design1": "वेब विकास",
+    "skill_design2": "वेब डिज़ाइन",
+    "skill_design3": "मोबाइल एप्लिकेशन",
+    "skill_design4": "यूआई डिज़ाइन",
+    "skill_lang1": "अंग्रेज़ी",
+    "skill_lang2": "हिन्दी",
+    "skill_coding1": "जावास्क्रिप्ट",
+    "skill_coding2": "रिएक्टजेएस",
+    "skill_coding3": "नेक्स्टजेएस",
+    "skill_coding4": "नोडजेएस",
+    "skill_coding5": "मोंगोडीबी",
+    "skill_kn1": "वेबसाइट होस्टिंग",
+    "skill_kn2": "गिट और गिटहब",
+    "skill_kn3": "रिएक्टजेएस/नेक्स्टजेएस में पुन: प्रयोज्य घटक बनाएं",
+    "skill_kn4": "कई तृतीय पक्ष पुस्तकालयों का ज्ञान",
+    "skill_kn5": "आधुनिक और मोबाइल-तैयार",
+    "skill_kn6": "सर्च इंजन मार्केटिंग"
+  },
+  "projects": {
+    "title1": "हाल के",
+    "title2": "प्रोजेक्ट्स"
+  },
+  "blogs": {
+    "title1": "नवीनतम",
+    "title2": "ब्लॉग्स"
+  },
+  "contact": {
+    "title1": "संपर्क",
+    "title2": "करे",
+    "sub-title1": "भेजें",
+    "sub-title2": "संदेश",
+    "email_title": "ईमेल",
+    "phone_title": "फोन",
+    "address": "इंदौर, मध्य प्रदेश, भारत",
+    "ph_name": "पूरा नाम",
+    "ph_email": "ईमेल पता",
+    "ph_message": "आपका संदेश",
+    "btn": "संदेश भेजें"
+  }
+}

@@ -5,24 +5,26 @@ import { BiCodeAlt } from "react-icons/bi";
 import { IoIosPaper } from "react-icons/io";
 import { GiCheckMark } from "react-icons/gi";
 import ResumeTitle from "./ResumeTitle";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const {t} = useTranslation()
   return (
     <div className="w-full grid grid-cols-9 gap-10 lgl:gap-0 px-6">
       {/* =============== Design and Languages Start here =================== */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Design" icon={<SiArtstation />} />
+        <ResumeTitle title={t('resume.resume_sub_title3')} icon={<SiArtstation />} />
         {/* web Design */}
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Web Development</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_design1')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[95%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* web Development */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Web Design</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_design2')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -30,7 +32,7 @@ const Skills = () => {
           {/* Mobile Application */}
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">
-              Mobile Application
+            {t('resume.skill_design3')}
             </p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
@@ -38,7 +40,7 @@ const Skills = () => {
           </div>
           {/* UI Design */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">UI Design</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_design4')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -49,16 +51,16 @@ const Skills = () => {
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Languages" icon={<FaFlag />} />
+        <ResumeTitle title={t('resume.resume_sub_title4')} icon={<FaFlag />} />
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">English</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_lang1')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Hindi</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_lang2')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -70,32 +72,32 @@ const Skills = () => {
       {/* =============== Coading and Knowledge End here ==================== */}
 
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Coding" icon={<BiCodeAlt />} />
+        <ResumeTitle title={t('resume.resume_sub_title5')} icon={<BiCodeAlt />} />
         {/* web Design */}
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">JavaScript</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_coding1')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[95%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Mobile Application */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Reactjs</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_coding2')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Mobile Application */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Nextjs</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_coding3')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* web Development */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Nodejs</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_coding4')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[90%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -103,7 +105,7 @@ const Skills = () => {
           
           {/* UI Design */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">MongoDB</p>
+            <p className="text-base text-textColor -mb-1.5">{t('resume.skill_coding5')}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -114,44 +116,44 @@ const Skills = () => {
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Knowledge" icon={<IoIosPaper />} />
+        <ResumeTitle title={t('resume.resume_sub_title6')} icon={<IoIosPaper />} />
         {/* English */}
         <ul className="py-4 flex flex-col gap-2 border-b-[1px] border-b-zinc-800">
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Website hosting
+            {t('resume.skill_kn1')}
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Git and Github
+            {t('resume.skill_kn2')}
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Create reusable component in reactjs/nextjs
+            {t('resume.skill_kn3')}
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Knowledge of multiple 3rd party libraries
+            {t('resume.skill_kn4')}
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Modern and mobile-ready
+            {t('resume.skill_kn5')}
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Search engine marketing
+            {t('resume.skill_kn6')}
           </li>
         </ul>
       </div>

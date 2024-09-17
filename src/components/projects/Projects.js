@@ -12,11 +12,13 @@ import {
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const {t} = useTranslation()
   return (
     <div>
-      <Title title="Recent" subTitle="Projects" />
+      <Title title={t('projects.title1')} subTitle={t('projects.title2')} />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           <ProjectsCard

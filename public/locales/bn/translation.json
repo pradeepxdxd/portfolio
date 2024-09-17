@@ -1,0 +1,93 @@
+{
+  "name": "প্রদীপ বিশ্বাস",
+  "downloadCV": "CV ডাউনলোড করুন",
+  "about": {
+    "about_title1": "আমার",
+    "about_title2": "সম্পর্কে",
+    "about_heading": "হ্যালো! আমি প্রদীপ বিশ্বাস,",
+    "about_desc": "আমি ভারতের ইন্দোর থেকে একজন পূর্ণ-স্ট্যাক ডেভেলপার। আমি ওয়েবসাইট ডিজাইন এবং নির্মাণে অভিজ্ঞ এবং ক্লাউডেও দক্ষ। আমি আমাদের বিশেষত্ব নিয়ে আপনার সাথে আলোচনা করতে ভালোবাসি।",
+    "about_residence": "ভারত",
+    "about_freelance": "উপলব্ধ",
+    "about_address": "ইন্দোর",
+    "about_age": "বয়স",
+    "about_residence_title": "বাসস্থান",
+    "about_freelance_title": "ফ্রিল্যান্স",
+    "about_address_title": "ঠিকানা"
+  },
+  "service": {
+    "service_title1": "আমার",
+    "service_title2": "পরিষেবা",
+    "service_desc1": "MERN ডেভেলপার হিসেবে, আমি ফ্রন্ট-এন্ড এবং ব্যাক-এন্ড উভয় ক্ষেত্রেই বিশেষজ্ঞ, যা আমাকে স্কেলেবল এবং কার্যকরী অ্যাপ্লিকেশনগুলি স্ক্র্যাচ থেকে তৈরি করতে সক্ষম করে।",
+    "service_desc2": "একজন ডিজাইনার হিসেবে, আমার Material UI, Bootstrap, Tailwind UI-এর মতো CSS ফ্রেমওয়ার্কগুলিতে শক্তিশালী জ্ঞান রয়েছে।",
+    "service_desc3": "একজন ডেভেলপার হিসেবে, API তৈরি করা আধুনিক ওয়েব অ্যাপ্লিকেশনের একটি গুরুত্বপূর্ণ অংশ। API বিভিন্ন সফ্টওয়্যার সিস্টেমগুলির মধ্যে যোগাযোগ করতে দেয়। API তৈরির দুটি জনপ্রিয় পন্থা হল REST এবং GraphQL।",
+    "service_desc4": "একজন ডেভেলপার হিসেবে, SEO (সার্চ ইঞ্জিন অপটিমাইজেশন) আপনার ওয়েবসাইটকে সার্চ ইঞ্জিন দ্বারা সহজে খুঁজে পাওয়া নিশ্চিত করতে একটি গুরুত্বপূর্ণ ভূমিকা পালন করে, যা আপনার দৃশ্যমানতা এবং ট্র্যাফিক বাড়াতে সহায়ক।"
+  },
+  "funfact": {
+    "funfact_title1": "মজার",
+    "funfact_title2": "তথ্য",
+    "funfact_content1": "Heakerrank সার্টিফিকেশন",
+    "funfact_content2": "3টি সম্পন্ন প্রকল্প",
+    "funfact_content3": "100 ঘণ্টার কোডিং",
+    "funfact_content4": "Leetcode-এ 300+ প্রশ্ন সমাধান"
+  },
+  "resume": {
+    "resume_common_title": "আমার",
+    "resume_title2": "CV",
+    "resume_title3": "কৌশল",
+    "resume_sub_title1": "অভিজ্ঞতা",
+    "resume_sub_title2": "শিক্ষা",
+    "resume_sub_title3": "ডিজাইন",
+    "resume_sub_title4": "ভাষা",
+    "resume_sub_title5": "কোডিং",
+    "resume_sub_title6": "জ্ঞান",
+    "resume_year": "বর্তমান",
+    "resume_profile": "সফটওয়্যার ইঞ্জিনিয়ার",
+    "resume_company_name1": "Hue.ai",
+    "resume_company_name2": "NeoSOFT Technology",
+    "resume_company_desc1": "তত্ক্ষণাত্ আপলোডার অ্যাপে কাজ করছে",
+    "resume_company_desc2": "Skuview এবং Kizuna নামক দুটি প্রধান প্রকল্পে কাজ করছে",
+    "education_school_name1": "IPS একাডেমি",
+    "education_school_name2": "উচ্চ মাধ্যমিক বিদ্যালয়",
+    "education_school_name3": "মাধ্যমিক বিদ্যালয়",
+    "education_school_desc1": "ইন্দোর, ভারত",
+    "education_school_desc2": "বেতুল, MP",
+    "skill_design1": "ওয়েব উন্নয়ন",
+    "skill_design2": "ওয়েব ডিজাইন",
+    "skill_design3": "মোবাইল অ্যাপ্লিকেশন",
+    "skill_design4": "UI ডিজাইন",
+    "skill_lang1": "ইংরেজি",
+    "skill_lang2": "হিন্দি",
+    "skill_coding1": "JavaScript",
+    "skill_coding2": "Reactjs",
+    "skill_coding3": "Nextjs",
+    "skill_coding4": "Nodejs",
+    "skill_coding5": "MongoDB",
+    "skill_kn1": "ওয়েবসাইট হোস্টিং",
+    "skill_kn2": "Git এবং Github",
+    "skill_kn3": "Reactjs/Nextjs-এ পুনরায় ব্যবহারযোগ্য উপাদান তৈরি করা",
+    "skill_kn4": "বিভিন্ন তৃতীয় পক্ষের লাইব্রেরি সম্পর্কে জ্ঞান",
+    "skill_kn5": "মডার্ন এবং মোবাইল-প্রস্তুত",
+    "skill_kn6": "সার্চ ইঞ্জিন মার্কেটিং"
+  },
+  "projects": {
+    "title1": "সাম্প্রতিক",
+    "title2": "প্রকল্প"
+  },
+  "blogs": {
+    "title1": "সর্বশেষ",
+    "title2": "ব্লগ"
+  },
+  "contact": {
+    "title1": "যোগাযোগ",
+    "title2": "নিন",
+    "sub-title1": "পাঠান",
+    "sub-title2": "বার্তা",
+    "email_title": "ইমেল",
+    "phone_title": "ফোন",
+    "address": "ইন্দোর, মধ্যপ্রদেশ, ভারত",
+    "ph_name": "পুরো নাম",
+    "ph_email": "ইমেল ঠিকানা",
+    "ph_message": "আপনার বার্তা",
+    "btn": "বার্তা পাঠান"
+  }
+}
