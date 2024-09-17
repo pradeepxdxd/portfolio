@@ -110,7 +110,6 @@ const Left = () => {
               </select>
             </form>
           </div>
-
           <div className="h-10">
             <a
               href={CV}
