@@ -30,206 +30,103 @@ const Left = () => {
   }, [i18n, i18n.language])
 
   return (
-    // <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-    //   <div className="w-full h-3/5">
-    //     <img
-    //       className="w-full h-full object-cover rounded-2xl"
-    //       src={bannerImg}
-    //       loading="priority"
-    //       alt="bannerImage"
-    //     />
-    //   </div>
-    //   <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
-    //     <div className="flex flex-col items-center gap-2 py-10">
-    //       <h1 className="text-textColor text-4xl font-semibold">Pradeep Biswas</h1>
-    //       <p className="text-base text-designColor tracking-wide">
-    //         {text}
-    //         <Cursor cursorBlinking="false" cursorStyle="|" />
-    //       </p>
-    //       <div className="flex justify-center gap-2 mt-2">
-    //         <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-    //           <a
-    //             href="https://github.com/pradeepxdxd"
-    //             target="_blank"
-    //             rel="noreferrer"
-    //             className="hover:text-designColor duration-300 cursor-pointer text-xl"
-    //           >
-    //             <FaGithub />
-    //           </a>
-    //         </span>
-    //         <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-    //           <a
-    //             href="https://www.linkedin.com/in/pradeep-biswas-003886215/"
-    //             target="_blank"
-    //             rel="noreferrer"
-    //             className="hover:text-designColor duration-300 cursor-pointer text-xl"
-    //           >
-    //             <FaLinkedin />
-    //           </a>
-    //         </span>
-    //         <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-    //           <a
-    //             href="https://www.instagram.com/pradeep.biswas_"
-    //             target="_blank"
-    //             rel="noreferrer"
-    //             className="hover:text-designColor duration-300 cursor-pointer text-xl"
-    //           >
-    //             <FiInstagram />
-    //           </a>
-    //         </span>
-    //         <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-    //           <a
-    //             href="https://leetcode.com/u/beastfake8/"
-    //             target="_blank"
-    //             rel="noreferrer"
-    //             className="hover:text-designColor duration-300 cursor-pointer text-xl"
-    //           >
-    //             <FaCode />
-    //           </a>
-    //         </span>
-    //         <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-    //           <a
-    //             href="https://www.hackerrank.com/profile/pradeepbiswas411"
-    //             target="_blank"
-    //             rel="noreferrer"
-    //             className="hover:text-designColor duration-300 cursor-pointer text-xl"
-    //           >
-    //             <FaHackerrank />
-    //           </a>
-    //         </span>
-    //       </div>
-    //     </div>
-    //     <div className="flex h-14">
-    //       <a
-    //         href={CV}
-    //         target="_blank"
-    //         // w-1/2
-    //         className="w-full border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
-    //         rel="noreferrer"
-    //       >
-    //         <button className="w-full h-full flex justify-center items-center gap-2">
-    //           Download CV <BsCloudLightningFill />
-    //         </button>
-    //       </a>
-    //     </div>
-    //   </div>
-    // </div>
-
-    <>
-      <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
-        <div className="w-full h-3/5">
-          <img
-            className="w-full h-full object-cover rounded-2xl"
-            src={bannerImg}
-            loading="priority"
-            alt="bannerImage"
-          />
-        </div>
-        <div className="w-full h-1/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
-          <div className="flex flex-col items-center gap-2 py-10">
-            <h1 className="text-textColor text-4xl font-semibold">
-              <Trans
-                i18nKey={name}
-                value={name}
-              />
-            </h1>
-            <p className="text-base text-designColor tracking-wide">
-              {text}
-              <Cursor cursorBlinking="false" cursorStyle="|" />
-            </p>
-            <div className="flex justify-center gap-2 mt-2">
-              <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-                <a
-                  href="https://github.com/pradeepxdxd"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-designColor duration-300 cursor-pointer text-xl"
-                >
-                  <FaGithub />
-                </a>
-              </span>
-              <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-                <a
-                  href="https://www.linkedin.com/in/pradeep-biswas-003886215/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-designColor duration-300 cursor-pointer text-xl"
-                >
-                  <FaLinkedin />
-                </a>
-              </span>
-              <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-                <a
-                  href="https://www.instagram.com/pradeep.biswas_"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-designColor duration-300 cursor-pointer text-xl"
-                >
-                  <FiInstagram />
-                </a>
-              </span>
-              <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-                <a
-                  href="https://leetcode.com/u/beastfake8/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-designColor duration-300 cursor-pointer text-xl"
-                >
-                  <FaCode />
-                </a>
-              </span>
-              <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-                <a
-                  href="https://www.hackerrank.com/profile/pradeepbiswas411"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-designColor duration-300 cursor-pointer text-xl"
-                >
-                  <FaHackerrank />
-                </a>
-              </span>
-            </div>
-
-            {/* Adjust Language Options */}
-            <div className="flex justify-center gap-4 mt-1">
-              <span onClick={() => handleLanguageChange('en')} className="hover:text-designColor duration-300 cursor-pointer text-sm">
-                English
-              </span>
-              <span onClick={() => handleLanguageChange('hi')} className="hover:text-designColor duration-300 cursor-pointer text-sm">
-                हिंदी
-              </span>
-              <span onClick={() => handleLanguageChange('ar')} className="hover:text-designColor duration-300 cursor-pointer text-sm">
-                Arabic
-              </span>
-              <span onClick={() => handleLanguageChange('jp')} className="hover:text-designColor duration-300 cursor-pointer text-sm">
-                Japanese
-              </span>
-              <span onClick={() => handleLanguageChange('mar')} className="hover:text-designColor duration-300 cursor-pointer text-sm">
-                Marathi
-              </span>
-              <span onClick={() => handleLanguageChange('bn')} className="hover:text-designColor duration-300 cursor-pointer text-sm">
-                Ban
-              </span>
-            </div>
+    <div className="w-full lgl:w-5/12 h-full bg-bodyColor rounded-2xl shadow-testShwdow z-10">
+      <div className="w-full h-3/5">
+        <img
+          className="w-full h-full object-cover rounded-2xl"
+          src={bannerImg}
+          loading="priority"
+          alt="bannerImage"
+        />
+      </div>
+      <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
+        <div className="flex flex-col items-center gap-2 py-10">
+          <h1 className="text-textColor text-2xl font-semibold">{name}</h1>
+          <p className="text-base text-designColor tracking-wide">
+            {text}
+            <Cursor cursorBlinking="false" cursorStyle="|" />
+          </p>
+          <div className="flex justify-center gap-2 mt-2">
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+              <a
+                href="https://github.com/pradeepxdxd"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-designColor duration-300 cursor-pointer text-xl"
+              >
+                <FaGithub />
+              </a>
+            </span>
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+              <a
+                href="https://www.linkedin.com/in/pradeep-biswas-003886215/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-designColor duration-300 cursor-pointer text-xl"
+              >
+                <FaLinkedin />
+              </a>
+            </span>
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+              <a
+                href="https://www.instagram.com/pradeep.biswas_"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-designColor duration-300 cursor-pointer text-xl"
+              >
+                <FiInstagram />
+              </a>
+            </span>
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+              <a
+                href="https://leetcode.com/u/beastfake8/"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-designColor duration-300 cursor-pointer text-xl"
+              >
+                <FaCode />
+              </a>
+            </span>
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+              <a
+                href="https://www.hackerrank.com/profile/pradeepbiswas411"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-designColor duration-300 cursor-pointer text-xl"
+              >
+                <FaHackerrank />
+              </a>
+            </span>
+          </div>
+          <div style={{ marginTop: 4 }}>
+            <form class="max-w-sm mx-auto">
+              <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onChange={e => handleLanguageChange(e.target.value)}>
+                <option selected value='en'>English</option>
+                <option value="hi">हिंदी</option>
+                <option value="mar">Marathi</option>
+                <option value="jp">Japanese</option>
+                <option value="ar">Arabic</option>
+                <option value="bn">Bangla</option>
+              </select>
+            </form>
           </div>
 
-          {/* Adjust Button Row */}
-          <div className="flex h-10">
+          <div className="h-10">
             <a
               href={CV}
               target="_blank"
-              className="w-full border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300"
+              // w-1/2
+              className="w-full border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
               rel="noreferrer"
             >
               <button className="w-full h-full flex justify-center items-center gap-2">
-                {t('downloadCV')}<BsCloudLightningFill />
+                Download CV <BsCloudLightningFill />
               </button>
             </a>
           </div>
         </div>
       </div>
-
-    </>
+    </div>
   );
 };
 
