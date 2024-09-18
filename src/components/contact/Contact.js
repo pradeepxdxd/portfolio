@@ -94,7 +94,7 @@ const Contact = () => {
           </p>
           <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              {t('about.about_address_title')}:
+              {t('contact.phone_title')}:
             </span>
             +91 8319868762
           </p>
