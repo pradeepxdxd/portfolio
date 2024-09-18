@@ -6,7 +6,7 @@ import { FiInstagram } from "react-icons/fi";
 import { FaHackerrank } from "react-icons/fa";
 import CV from "../../assets/Pradeep_Resume_8_2024.pdf";
 import { bannerImg } from "../../assets/index";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const Left = () => {
   const { t, i18n } = useTranslation()
@@ -14,7 +14,7 @@ const Left = () => {
   const name = t('name')
 
   const [text] = useTypewriter({
-    words: ["Web Developer", "Full Stack Developer", "MERN Stack Developer"],
+    words: t('title_words'),
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
@@ -102,9 +102,10 @@ const Left = () => {
             <form class="max-w-sm mx-auto">
               <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" onChange={e => handleLanguageChange(e.target.value)}>
                 <option selected value='en'>English</option>
-                <option value="hi">हिंदी</option>
-                <option value="mar">Marathi</option>
+                <option value="hi">Hindi</option>
                 <option value="jp">Japanese</option>
+                <option value="kr">Korean</option>
+                <option value="ra">Russian</option>
                 <option value="ar">Arabic</option>
                 <option value="bn">Bangla</option>
               </select>

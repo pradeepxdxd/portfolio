@@ -1,6 +1,7 @@
 {
   "name": "プラディープ・ビスワス",
   "downloadCV": "履歴書をダウンロード",
+  "title_words": ["ウェブ開発者", "フルスタック開発者", "MERNスタック開発者"],
   "about": {
     "about_title1": "私について",
     "about_title2": "について",
