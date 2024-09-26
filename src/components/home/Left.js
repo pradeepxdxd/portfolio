@@ -4,7 +4,7 @@ import { BsCloudLightningFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { FaHackerrank } from "react-icons/fa";
-import CV from "../../assets/Pradeep_Resume_8_2024.pdf";
+import CV from "../../assets/PradeepBiswasResume2024.pdf";
 import { bannerImg } from "../../assets/index";
 import { useTranslation } from "react-i18next";
 
