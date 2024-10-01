@@ -48,12 +48,12 @@ const Education = () => {
         />
         <ResumeCard
           badge="2017 - 2018"
-          title={t("resume.education_school_name3")}
+          title={t("resume.education_school_name2")}
           subTitle={t("resume.education_school_desc2")}
         />
         <ResumeCard
           badge="2015 - 2016"
-          title={t("resume.education_school_name2")}
+          title={t("resume.education_school_name3")}
           subTitle={t("resume.education_school_desc2")}
         />
       </div>
