@@ -16,7 +16,7 @@ import ProjectsCard from "./ProjectsCard";
 import { useTranslation } from "react-i18next";
 
 const Projects = () => {
-  const {t} = useTranslation()
+  const { t } = useTranslation()
   return (
     <div>
       <Title title={t('projects.title1')} subTitle={t('projects.title2')} />
@@ -28,12 +28,7 @@ const Projects = () => {
             image={workImgNine}
             url='https://justchats.vercel.app'
           />
-          <ProjectsCard
-            title="Show Quest"
-            category="Ticket Booking"
-            image={workImgTen}
-            url='https://showquest.vercel.app'
-          />
+
           <ProjectsCard
             title="Blog Website"
             category="Website"
@@ -56,6 +51,12 @@ const Projects = () => {
           />
         </div>
         <div className="px-6">
+          <ProjectsCard
+            title="Show Quest"
+            category="Ticket Booking"
+            image={workImgTen}
+            url='https://showquest.vercel.app'
+          />
           <ProjectsCard
             title="Responsive website"
             category="E-commerce"
