@@ -8,7 +8,8 @@ import {
   workImgSix,
   workImgSeven,
   workImgEight,
-  workImgNine
+  workImgNine,
+  workImgTen
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -26,6 +27,12 @@ const Projects = () => {
             category="Chat App"
             image={workImgNine}
             url='https://justchats.vercel.app'
+          />
+          <ProjectsCard
+            title="Show Quest"
+            category="Ticket Booking"
+            image={workImgTen}
+            url='https://showquest.vercel.app'
           />
           <ProjectsCard
             title="Blog Website"
