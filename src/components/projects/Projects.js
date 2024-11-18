@@ -1,15 +1,11 @@
 import React from "react";
 import {
   workImgOne,
-  workImgTwo,
   workImgThree,
-  workImgFour,
-  workImgFive,
   workImgSix,
-  workImgSeven,
-  workImgEight,
   workImgNine,
-  workImgTen
+  workImgTen,
+  workImgEleven
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -39,7 +35,7 @@ const Projects = () => {
             category="Design"
             image={workImgOne}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="Infinity Logo"
             category="Logo"
             image={workImgTwo}
@@ -48,7 +44,7 @@ const Projects = () => {
             title="Mobile Application"
             category="Shopping"
             image={workImgFive}
-          />
+          /> */}
         </div>
         <div className="px-6">
           <ProjectsCard
@@ -58,16 +54,18 @@ const Projects = () => {
             url='https://showquest.vercel.app'
           />
           <ProjectsCard
-            title="Responsive website"
-            category="E-commerce"
-            image={workImgFour}
+            title="Smart Light"
+            category="Spotlights"
+            image={workImgEleven}
+            url={'https://smart-lights-mu.vercel.app'}
           />
           <ProjectsCard
-            title="Grapic Design"
-            category="Design"
+            title="Assignment Tracking App"
+            category="Web App"
             image={workImgSix}
+            url={'https://assignment-tracking.vercel.app/'}
           />
-          <ProjectsCard
+          {/* <ProjectsCard
             title="Ideas & Blog"
             category="Website"
             image={workImgEight}
@@ -76,7 +74,7 @@ const Projects = () => {
             title="ZOSS Logo"
             category="Logo"
             image={workImgSeven}
-          />
+          /> */}
         </div>
       </div>
     </div>
