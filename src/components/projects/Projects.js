@@ -1,12 +1,11 @@
 import React from "react";
 import {
-  workImgOne,
-  workImgThree,
   workImgSix,
   workImgNine,
   workImgTen,
   workImgEleven,
-  askAiImg
+  askAiImg,
+  urbancabImg
 } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
@@ -32,25 +31,11 @@ const Projects = () => {
             url='https://justchats.vercel.app'
           />
           <ProjectsCard
-            title="Blog Website"
-            category="Website"
-            image={workImgThree}
+            title="Urbancab"
+            category="Transport"
+            image={urbancabImg}
+            url='https://urbancab.vercel.app'
           />
-          <ProjectsCard
-            title="Business Card Design"
-            category="Design"
-            image={workImgOne}
-          />
-          {/* <ProjectsCard
-            title="Infinity Logo"
-            category="Logo"
-            image={workImgTwo}
-          />
-          <ProjectsCard
-            title="Mobile Application"
-            category="Shopping"
-            image={workImgFive}
-          /> */}
         </div>
         <div className="px-6">
           <ProjectsCard
@@ -71,15 +56,7 @@ const Projects = () => {
             image={workImgSix}
             url={'https://assignment-tracking.vercel.app/'}
           />
-          {/* <ProjectsCard
-            title="Ideas & Blog"
-            category="Website"
-            image={workImgEight}
-          />
-          <ProjectsCard
-            title="ZOSS Logo"
-            category="Logo"
-            image={workImgSeven}
+          {/* <ProjectsC
           /> */}
         </div>
       </div>

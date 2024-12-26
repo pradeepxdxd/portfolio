@@ -14,6 +14,7 @@ import blogImgThree from "./blog/blogImgThree.jpg"
 import workImgTen from './work/workImgTen.png'
 import workImgEleven from './work/streetlight.jpg'
 import askAiImg from './work/askai.png'
+import urbancabImg from './work/Uc-logo.png'
 
 export { 
     bannerImg,
@@ -32,4 +33,5 @@ export {
     workImgTen,
     workImgEleven,
     askAiImg,
+    urbancabImg,
 };
