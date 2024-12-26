@@ -22,7 +22,7 @@ const Projects = () => {
             title="Ask AI"
             category="Open AI"
             image={askAiImg}
-            url='http://ask-ai-two.vercel.app/'
+            url='https://ask-ia.vercel.app/'
           />
           <ProjectsCard
             title="Just Chats"
