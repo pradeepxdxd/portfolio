@@ -16,12 +16,18 @@ const Education = () => {
           title={<Trans i18nKey="resume.resume_sub_title1" />}
           icon={<MdWork />}
         />
-        {/* <ResumeCard
+        <ResumeCard
           badge=""
+          title={t("resume.resume_profile")}
+          subTitle={t("resume.resume_company_name3")}
+          des={t("resume.resume_company_desc3")}
+        />
+        <ResumeCard
+          badge="2024-2024"
           title={t("resume.resume_profile")}
           subTitle={t("resume.resume_company_name1")}
           des={t("resume.resume_company_desc1")}
-        /> */}
+        />
         <ResumeCard
           badge="2022-2024"
           title={t("resume.resume_profile")}

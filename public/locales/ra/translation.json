@@ -1,7 +1,11 @@
 {
   "name": "Прадхип Бисвас",
   "downloadCV": "Скачать резюме",
-  "title_words": ["Веб-разработчик", "Full Stack разработчик", "MERN Stack разработчик"],
+  "title_words": [
+    "Веб-разработчик",
+    "Full Stack разработчик",
+    "MERN Stack разработчик"
+  ],
   "about": {
     "about_title1": "Обо",
     "about_title2": "Мне",
@@ -43,10 +47,12 @@
     "resume_sub_title6": "Знания",
     "resume_year": "По настоящее время",
     "resume_profile": "Инженер-программист",
-    "resume_company_name1": "Hue.ai",
-    "resume_company_name2": "NeoSOFT Technology",
-    "resume_company_desc1": "Работа над приложением для моментальной загрузки",
-    "resume_company_desc2": "Работал над веб-проектами, такими как прогнозирование продаж и пополнение запасов, а также в области производства.",
+    "resume_company_name1": "Фриланс",
+    "resume_company_name2": "NeoSOFT Технологии",
+    "resume_company_name3": "6D Технологии",
+    "resume_company_desc1": "Работа над проектами приложений для электронной коммерции и онлайн-бронирования билетов",
+    "resume_company_desc2": "Работа над веб-проектами, такими как прогнозирование продаж, пополнение запасов и производственная сфера",
+    "resume_company_desc3": "Работа над телекоммуникационным продуктом компании",
     "education_school_name1": "Академия IPS",
     "education_school_name2": "Средняя школа",
     "education_school_name3": "Основная школа",
